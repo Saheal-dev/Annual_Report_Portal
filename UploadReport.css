@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .upload-report {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    background-color: #ffc107;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1 rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+  }
+  
+  .logo h3{
+    color: white;
+  }
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #ffe082;
+    padding: 0.5rem;
+    width: 25%;
+    border-radius: 4px;
+  }
+  
+  .search-bar input {
+    border: none;
+    width: 100%;
+    height: 25px;
+    background: transparent;
+    margin-left: 0.5rem;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+  }
+  .wordp p{
+    margin: 0px;
+  }
+  
+  .log-out {
+    font-size: 0.8rem;
+  }
+  
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 2rem;
+    background-color: #fffde7;
+  }
+  
+  .upload-banner {
+    background-color: #fff9c4;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+  }
+  
+  .arrow-icon {
+    font-size: 2rem;
+    background-color: #000;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  input[type="text"],
+  select,
+  .file-input-wrapper {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* background-color: #e0e0e0; */
+  }
+  
+  .file-input-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .file-input-wrapper input[type="file"] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .file-input-placeholder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .upload-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .file-name {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .upload-button {
+    background-color: #0052cc;
+    color: white;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .upload-button:hover {
+    background-color: #003d99;
+  }
